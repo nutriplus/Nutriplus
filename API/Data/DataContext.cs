@@ -10,7 +10,7 @@ public class DataContext : DbContext
     }
 
     public DbSet<AppUser> Users { get; set; }
-    public DbSet<Nutritionist> Nutritionists { get; set; }
-    public DbSet<Role> Roles { get; set; }
+    // public DbSet<Nutritionist> Nutritionists { get; set; }
+    // public DbSet<Role> Roles { get; set; }
     public DbSet<Measurement> Measurements { get; set; }
 }
