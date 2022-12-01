@@ -9,7 +9,4 @@ namespace API.Models;
         public float Height { get; set; }
  //     public Nutritionist Nutritionist { get; set; } 
         public AppUser AppUser { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-
     }
